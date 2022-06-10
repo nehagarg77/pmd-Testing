@@ -16,4 +16,8 @@ private class TemperatureConverterTest {
         Decimal celsius = TemperatureConverter.fahrenheitToCelsius(-10);
         System.assertEquals(-23.33,celsius,'some msg');
     }
+    @isTest static void testNegativeTemp2() {
+        Decimal celsius = TemperatureConverter.fahrenheitToCelsius(-10);
+        System.assertEquals(-73.33,celsius,'some msg');
+    }
 }
