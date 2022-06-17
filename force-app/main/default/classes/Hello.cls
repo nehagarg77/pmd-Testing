@@ -4,4 +4,19 @@ public class Hello {
         String Input;
         System.debug('I am Testing');
     }
+    
+     public static void helloTest2(){
+        String Input;
+        System.debug('I am Testing');
+    }
+    
+    public static void helloTest3(){
+        String Input;
+        System.debug('I am Testing');
+    }
+    
+    public static void helloTest4(){
+        String Input;
+        System.debug('I am Testing1');
+    }
 }
